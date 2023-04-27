@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Photography Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-color: #F5F5F5;">
+	<header>
+		<h1>My Photography</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>I am a professional photographer specializing in landscape and portrait photography. I have been in this field for over 10 years and have won several awards for my work.</p>
+		</section>
+		
+		<section id="gallery">
+			<h2>My Gallery</h2>
+			<p>Check out some of my best works below:</p>
+			<ol>
+				<li>
+					<h3>Landscape Photography</h3>
+					<ul>
+						<li><img src="landscape1.jpg" alt="Landscape 1"></li>
+						<li><img src="landscape2.jpg" alt="Landscape 2"></li>
+						<li><img src="landscape3.jpg" alt="Landscape 3"></li>
+					</ul>
+				</li>
+				<li>
+					<h3>Portrait Photography</h3>
+					<ul>
+						<li><img src="portrait1.jpg" alt="Portrait 1"></li>
+						<li><img src="portrait2.jpg" alt="Portrait 2"></li>
+						<li><img src="portrait3.jpg" alt="Portrait 3"></li>
+					</ul>
+				</li>
+			</ol>
+			<div>
+				<h3>Watch my latest video:</h3>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="My Photography Video"></iframe>
+			</div>
+		</section>
+		
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<p>Get in touch with me using the form below:</p>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+				<label for="message">Message:</label><br>
+				<textarea id="message" name="message"></textarea><br>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 My Photography</p>
+	</footer>
+</body>
+</html>
